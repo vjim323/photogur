@@ -1,5 +1,5 @@
 Picture.create!(
-	:title => "The old church on the coast of the White sea.",
+	:title => "The old church on the coast of the White sea",
 	:artist => "Sergey Ershov",
 	:url => "http://bitmakerlabs.s3.amazonaws.com/photogur/house.jpg"
 	)
