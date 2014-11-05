@@ -26,8 +26,8 @@ class PicturesController < ApplicationController
 
 	def update
 		@picture = Picture.find(params[:id])
-		if @picture.update_attributes(picture_params) #wrong number of arguments?
-			redirect_to "/pictures/#{@picture.id}"
+		if @picture.update_attributes(picture_params) 
+			redirect_to picture_url
 		else
 			render :edit
 		end
